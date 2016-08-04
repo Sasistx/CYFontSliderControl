@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39F6E241D52E1A00064F870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E231D52E1A00064F870 /* AppDelegate.swift */; };
+		F39F6E261D52E1A00064F870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E251D52E1A00064F870 /* ViewController.swift */; };
+		F39F6E291D52E1A00064F870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39F6E271D52E1A00064F870 /* Main.storyboard */; };
+		F39F6E2B1D52E1A00064F870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39F6E2A1D52E1A00064F870 /* Assets.xcassets */; };
+		F39F6E2E1D52E1A00064F870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39F6E2C1D52E1A00064F870 /* LaunchScreen.storyboard */; };
+		F39F6E391D52E1A00064F870 /* CYFontSliderControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E381D52E1A00064F870 /* CYFontSliderControlTests.swift */; };
+		F39F6E441D52E1A00064F870 /* CYFontSliderControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E431D52E1A00064F870 /* CYFontSliderControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39F6E351D52E1A00064F870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39F6E181D52E1A00064F870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39F6E1F1D52E1A00064F870;
+			remoteInfo = CYFontSliderControl;
+		};
+		F39F6E401D52E1A00064F870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39F6E181D52E1A00064F870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39F6E1F1D52E1A00064F870;
+			remoteInfo = CYFontSliderControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F39F6E201D52E1A00064F870 /* CYFontSliderControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYFontSliderControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F6E231D52E1A00064F870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39F6E251D52E1A00064F870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39F6E281D52E1A00064F870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39F6E2A1D52E1A00064F870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39F6E2D1D52E1A00064F870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39F6E2F1D52E1A00064F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39F6E341D52E1A00064F870 /* CYFontSliderControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYFontSliderControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F6E381D52E1A00064F870 /* CYFontSliderControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYFontSliderControlTests.swift; sourceTree = "<group>"; };
+		F39F6E3A1D52E1A00064F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39F6E3F1D52E1A00064F870 /* CYFontSliderControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYFontSliderControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39F6E431D52E1A00064F870 /* CYFontSliderControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYFontSliderControlUITests.swift; sourceTree = "<group>"; };
+		F39F6E451D52E1A00064F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39F6E1D1D52E1A00064F870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39F6E311D52E1A00064F870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39F6E3C1D52E1A00064F870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39F6E171D52E1A00064F870 = {
+			isa = PBXGroup;
+			children = (
+				F39F6E221D52E1A00064F870 /* CYFontSliderControl */,
+				F39F6E371D52E1A00064F870 /* CYFontSliderControlTests */,
+				F39F6E421D52E1A00064F870 /* CYFontSliderControlUITests */,
+				F39F6E211D52E1A00064F870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39F6E211D52E1A00064F870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39F6E201D52E1A00064F870 /* CYFontSliderControl.app */,
+				F39F6E341D52E1A00064F870 /* CYFontSliderControlTests.xctest */,
+				F39F6E3F1D52E1A00064F870 /* CYFontSliderControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39F6E221D52E1A00064F870 /* CYFontSliderControl */ = {
+			isa = PBXGroup;
+			children = (
+				F39F6E231D52E1A00064F870 /* AppDelegate.swift */,
+				F39F6E251D52E1A00064F870 /* ViewController.swift */,
+				F39F6E271D52E1A00064F870 /* Main.storyboard */,
+				F39F6E2A1D52E1A00064F870 /* Assets.xcassets */,
+				F39F6E2C1D52E1A00064F870 /* LaunchScreen.storyboard */,
+				F39F6E2F1D52E1A00064F870 /* Info.plist */,
+			);
+			path = CYFontSliderControl;
+			sourceTree = "<group>";
+		};
+		F39F6E371D52E1A00064F870 /* CYFontSliderControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39F6E381D52E1A00064F870 /* CYFontSliderControlTests.swift */,
+				F39F6E3A1D52E1A00064F870 /* Info.plist */,
+			);
+			path = CYFontSliderControlTests;
+			sourceTree = "<group>";
+		};
+		F39F6E421D52E1A00064F870 /* CYFontSliderControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39F6E431D52E1A00064F870 /* CYFontSliderControlUITests.swift */,
+				F39F6E451D52E1A00064F870 /* Info.plist */,
+			);
+			path = CYFontSliderControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39F6E1F1D52E1A00064F870 /* CYFontSliderControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39F6E481D52E1A00064F870 /* Build configuration list for PBXNativeTarget "CYFontSliderControl" */;
+			buildPhases = (
+				F39F6E1C1D52E1A00064F870 /* Sources */,
+				F39F6E1D1D52E1A00064F870 /* Frameworks */,
+				F39F6E1E1D52E1A00064F870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYFontSliderControl;
+			productName = CYFontSliderControl;
+			productReference = F39F6E201D52E1A00064F870 /* CYFontSliderControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39F6E331D52E1A00064F870 /* CYFontSliderControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39F6E4B1D52E1A00064F870 /* Build configuration list for PBXNativeTarget "CYFontSliderControlTests" */;
+			buildPhases = (
+				F39F6E301D52E1A00064F870 /* Sources */,
+				F39F6E311D52E1A00064F870 /* Frameworks */,
+				F39F6E321D52E1A00064F870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39F6E361D52E1A00064F870 /* PBXTargetDependency */,
+			);
+			name = CYFontSliderControlTests;
+			productName = CYFontSliderControlTests;
+			productReference = F39F6E341D52E1A00064F870 /* CYFontSliderControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F39F6E3E1D52E1A00064F870 /* CYFontSliderControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39F6E4E1D52E1A00064F870 /* Build configuration list for PBXNativeTarget "CYFontSliderControlUITests" */;
+			buildPhases = (
+				F39F6E3B1D52E1A00064F870 /* Sources */,
+				F39F6E3C1D52E1A00064F870 /* Frameworks */,
+				F39F6E3D1D52E1A00064F870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39F6E411D52E1A00064F870 /* PBXTargetDependency */,
+			);
+			name = CYFontSliderControlUITests;
+			productName = CYFontSliderControlUITests;
+			productReference = F39F6E3F1D52E1A00064F870 /* CYFontSliderControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39F6E181D52E1A00064F870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CYGTX;
+				TargetAttributes = {
+					F39F6E1F1D52E1A00064F870 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F39F6E331D52E1A00064F870 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F39F6E1F1D52E1A00064F870;
+					};
+					F39F6E3E1D52E1A00064F870 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F39F6E1F1D52E1A00064F870;
+					};
+				};
+			};
+			buildConfigurationList = F39F6E1B1D52E1A00064F870 /* Build configuration list for PBXProject "CYFontSliderControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39F6E171D52E1A00064F870;
+			productRefGroup = F39F6E211D52E1A00064F870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39F6E1F1D52E1A00064F870 /* CYFontSliderControl */,
+				F39F6E331D52E1A00064F870 /* CYFontSliderControlTests */,
+				F39F6E3E1D52E1A00064F870 /* CYFontSliderControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39F6E1E1D52E1A00064F870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F6E2E1D52E1A00064F870 /* LaunchScreen.storyboard in Resources */,
+				F39F6E2B1D52E1A00064F870 /* Assets.xcassets in Resources */,
+				F39F6E291D52E1A00064F870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39F6E321D52E1A00064F870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39F6E3D1D52E1A00064F870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39F6E1C1D52E1A00064F870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F6E261D52E1A00064F870 /* ViewController.swift in Sources */,
+				F39F6E241D52E1A00064F870 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39F6E301D52E1A00064F870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F6E391D52E1A00064F870 /* CYFontSliderControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39F6E3B1D52E1A00064F870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F6E441D52E1A00064F870 /* CYFontSliderControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39F6E361D52E1A00064F870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39F6E1F1D52E1A00064F870 /* CYFontSliderControl */;
+			targetProxy = F39F6E351D52E1A00064F870 /* PBXContainerItemProxy */;
+		};
+		F39F6E411D52E1A00064F870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39F6E1F1D52E1A00064F870 /* CYFontSliderControl */;
+			targetProxy = F39F6E401D52E1A00064F870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39F6E271D52E1A00064F870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39F6E281D52E1A00064F870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39F6E2C1D52E1A00064F870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39F6E2D1D52E1A00064F870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39F6E461D52E1A00064F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F39F6E471D52E1A00064F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39F6E491D52E1A00064F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYFontSliderControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYFontSliderControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F39F6E4A1D52E1A00064F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYFontSliderControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYFontSliderControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F39F6E4C1D52E1A00064F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYFontSliderControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYFontSliderControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYFontSliderControl.app/CYFontSliderControl";
+			};
+			name = Debug;
+		};
+		F39F6E4D1D52E1A00064F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYFontSliderControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYFontSliderControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYFontSliderControl.app/CYFontSliderControl";
+			};
+			name = Release;
+		};
+		F39F6E4F1D52E1A00064F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYFontSliderControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYFontSliderControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYFontSliderControl;
+			};
+			name = Debug;
+		};
+		F39F6E501D52E1A00064F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYFontSliderControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chunyu.CYFontSliderControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYFontSliderControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39F6E1B1D52E1A00064F870 /* Build configuration list for PBXProject "CYFontSliderControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39F6E461D52E1A00064F870 /* Debug */,
+				F39F6E471D52E1A00064F870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39F6E481D52E1A00064F870 /* Build configuration list for PBXNativeTarget "CYFontSliderControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39F6E491D52E1A00064F870 /* Debug */,
+				F39F6E4A1D52E1A00064F870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F39F6E4B1D52E1A00064F870 /* Build configuration list for PBXNativeTarget "CYFontSliderControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39F6E4C1D52E1A00064F870 /* Debug */,
+				F39F6E4D1D52E1A00064F870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F39F6E4E1D52E1A00064F870 /* Build configuration list for PBXNativeTarget "CYFontSliderControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39F6E4F1D52E1A00064F870 /* Debug */,
+				F39F6E501D52E1A00064F870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39F6E181D52E1A00064F870 /* Project object */;
+}
