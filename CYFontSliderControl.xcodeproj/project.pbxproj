@@ -14,6 +14,10 @@
 		F39F6E2E1D52E1A00064F870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39F6E2C1D52E1A00064F870 /* LaunchScreen.storyboard */; };
 		F39F6E391D52E1A00064F870 /* CYFontSliderControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E381D52E1A00064F870 /* CYFontSliderControlTests.swift */; };
 		F39F6E441D52E1A00064F870 /* CYFontSliderControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E431D52E1A00064F870 /* CYFontSliderControlUITests.swift */; };
+		F39F6E531D52E3C90064F870 /* CYFontSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E521D52E3C90064F870 /* CYFontSliderControl.swift */; };
+		F39F6E551D52E5F50064F870 /* CYSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F6E541D52E5F50064F870 /* CYSliderView.swift */; };
+		F39F6E581D532A430064F870 /* CY_thumbImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39F6E561D532A430064F870 /* CY_thumbImage@2x.png */; };
+		F39F6E591D532A430064F870 /* CY_thumbImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39F6E571D532A430064F870 /* CY_thumbImage@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F39F6E3F1D52E1A00064F870 /* CYFontSliderControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYFontSliderControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39F6E431D52E1A00064F870 /* CYFontSliderControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYFontSliderControlUITests.swift; sourceTree = "<group>"; };
 		F39F6E451D52E1A00064F870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39F6E521D52E3C90064F870 /* CYFontSliderControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYFontSliderControl.swift; sourceTree = "<group>"; };
+		F39F6E541D52E5F50064F870 /* CYSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CYSliderView.swift; sourceTree = "<group>"; };
+		F39F6E561D532A430064F870 /* CY_thumbImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CY_thumbImage@2x.png"; sourceTree = "<group>"; };
+		F39F6E571D532A430064F870 /* CY_thumbImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CY_thumbImage@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,9 @@
 		F39F6E221D52E1A00064F870 /* CYFontSliderControl */ = {
 			isa = PBXGroup;
 			children = (
+				F39F6E561D532A430064F870 /* CY_thumbImage@2x.png */,
+				F39F6E571D532A430064F870 /* CY_thumbImage@3x.png */,
+				F39F6E511D52E3B80064F870 /* Classes */,
 				F39F6E231D52E1A00064F870 /* AppDelegate.swift */,
 				F39F6E251D52E1A00064F870 /* ViewController.swift */,
 				F39F6E271D52E1A00064F870 /* Main.storyboard */,
@@ -123,6 +134,15 @@
 				F39F6E451D52E1A00064F870 /* Info.plist */,
 			);
 			path = CYFontSliderControlUITests;
+			sourceTree = "<group>";
+		};
+		F39F6E511D52E3B80064F870 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F39F6E521D52E3C90064F870 /* CYFontSliderControl.swift */,
+				F39F6E541D52E5F50064F870 /* CYSliderView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,8 @@
 				F39F6E2E1D52E1A00064F870 /* LaunchScreen.storyboard in Resources */,
 				F39F6E2B1D52E1A00064F870 /* Assets.xcassets in Resources */,
 				F39F6E291D52E1A00064F870 /* Main.storyboard in Resources */,
+				F39F6E591D532A430064F870 /* CY_thumbImage@3x.png in Resources */,
+				F39F6E581D532A430064F870 /* CY_thumbImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +280,8 @@
 			files = (
 				F39F6E261D52E1A00064F870 /* ViewController.swift in Sources */,
 				F39F6E241D52E1A00064F870 /* AppDelegate.swift in Sources */,
+				F39F6E531D52E3C90064F870 /* CYFontSliderControl.swift in Sources */,
+				F39F6E551D52E5F50064F870 /* CYSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
